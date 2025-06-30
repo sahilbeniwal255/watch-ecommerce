@@ -1,0 +1,55 @@
+h1{
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a p{
+    font-size: small;
+    font-weight: 100;
+}
+a.active p{
+    font-weight: 500;
+}
+a hr{
+    visibility: hidden;
+}
+a.active hr{
+    visibility: visible;
+}
+#profile, #cart, #search, #menu{
+    height: 25px;
+    width: auto;
+    margin:3px;
+}
+#close{
+    height: 25px;
+    width: auto;
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    cursor: pointer;
+}
+#cnt{
+    position: relative;
+    margin: 0;
+    top: -15px;
+    left: 15px;
+}
+#drop{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    top: 60px;
+    gap: 10px;
+    width: 100%;
+    padding: 0;
+    z-index: 10;
+    background-color: white;
+}
+#drop a{
+    margin: 0;
+    width: 100vw;
+    text-align: center;
+}
