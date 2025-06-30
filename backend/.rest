@@ -1,0 +1,57 @@
+
+
+###
+POST http://localhost:5000/api/user/register/
+Content-Type: application/json
+
+{
+  "name": "sahil",
+  "email": "sahil@example.com",
+  "password": "securepassword123"
+}
+
+
+###
+POST http://localhost:5000/api/user/login/
+Content-Type: application/json
+
+{
+  "email": "sahil@example.com",
+  "password": "securepassword123"
+}
+
+###
+POST http://localhost:5000/api/product/add/
+
+Content-Type: application/json
+
+{
+  "name": "new watch",
+  "description" : "cak",
+  "image" : "jca",
+  "price" : "344",
+  "category" : "analog",
+  "sub_category" : "sport",
+  "bestseller" : "false",
+  "strapMaterial" : "rubber",
+  "strapColor" : "white"
+}
+
+
+###
+POST http://localhost:5000/api/user/adminLogin
+
+Content-Type: application/json
+
+{
+  "email" : "admin@herman.com",
+  "password" : "1234"
+}
+
+###
+POST http://localhost:5000/api/product/remove/
+Content-Type: application/json
+
+{
+  "id" : "6852702d1a288e36085670d2"
+}
