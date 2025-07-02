@@ -1,4 +1,4 @@
-# 🕰️ Herman Watches – Full-Stack E-Commerce App
+# Herman Watches – Full-Stack E-Commerce App
 
 Welcome to **Herman Watches**, a modern e-commerce platform for luxury timepieces. This is my **first full-stack project**, built using the **MERN stack**, featuring secure authentication, an admin panel, and a clean MVC architecture.
 
